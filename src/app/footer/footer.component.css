@@ -1,9 +1,11 @@
+/* styling the footer background */
 .footer-overlay {
     background: rgba(0, 0, 0, 1);
     border-radius: 50px;
     width: 100%;
     height: 600px;
 }
+/* styling the footer parent element */
 .footer-container {
     margin-top: 1820px;
     color: white;
@@ -13,12 +15,14 @@
     justify-items: center;
 
 }
+/* styling the parent link container */
 .links {
     display: flex;
     padding-top: 10px;
     justify-content: space-between;
     gap: 3rem;
 }
+/* removing text decorations and adding to the headers */
 .links a {
     color: white;
     text-decoration: none;
@@ -32,6 +36,7 @@
 .links div {
     font-size: 1.7em;
 }
+/* spacing the elements */
 .headquater-links, .contact-links, .navigation-links,
 .brand-links, .privacy-links {
     display: block;
@@ -41,6 +46,7 @@
 .nav-list, .contact-list, .brand-list, .privacy-list{
     list-style-type: none;
 }
+/* styling the logos and logo links */
 .footer-logos {
     display: flex;
     padding-top: 80px;
