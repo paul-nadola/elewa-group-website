@@ -1,0 +1,6 @@
+/* adding universal styles to the project */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
