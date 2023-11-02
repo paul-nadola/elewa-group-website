@@ -1,10 +1,30 @@
+/* image styling for social impact background image */
 .social-impact img{
      
         position: absolute;
         z-index: -1;
         object-fit: cover;
         width: 100vw;
-        height: 100vh;
+        height: 100vh;  
+}
+
+/* end of image styling*/
+
+/* hero styling */
+.hero-content{
+        margin-top: 250px;
+        position: absolute;
+        color: #f1f1f1;
+        margin-left: 50px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10rem;
+        width: 50%;
         
-    
+}
+.hero-content p {
+        font-size: clamp(1.4rem, 2vw, 1.8rem);
+}
+.hero-content h3 {
+        font-size: 4rem;
 }
