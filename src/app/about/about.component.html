@@ -1,9 +1,16 @@
-<div class="about-container">
+<div class="about-container"*ngFor="let item of content">
+    <!-- Mapping over the array to display hero content -->
     <!-- displaying the nav bar and background images-->
-    <app-header></app-header>
-    <div>
+    <!-- <app-header></app-header> -->
     <div class="overlay"></div>
     <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679650530/elewa-team_digqu3.jpg"
         alt="background-image">
+
+    <div class="hero-content">
+        <h2>{{item.aboutUsHeroText}}</h2>
+        <h1>{{item.aboutUsHeroHeader}}</h1>
+        <div class="hero-footer">
+            <h3>{{item.aboutUsHeroFooter}}</h3>
+        </div>
     </div>
 </div>

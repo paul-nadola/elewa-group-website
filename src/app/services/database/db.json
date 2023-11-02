@@ -6,6 +6,19 @@
       "section":"Social Impact",
       "socialHeroText": "Scaling impact. Beyond the norm",
       "socialHeroHeader": "Human and Environmental Impact through Social Enterprise"
+    },
+    {
+      "id": 2,
+      "section":"Invest",
+      "investHeroText": "Trade, not aid",
+      "investHeroHeader": "Southern innovations addressing global problems"
+    },
+    {
+      "id": 3,
+      "section":"About Us",
+      "aboutUsHeroText": "HOW TO RECOGNIZE AN ELEWA MEMBER",
+      "aboutUsHeroHeader": "Dependable, Creative, Supportive, Open Minded and Fun*",
+      "aboutUsHeroFooter": "*SERIOUS WHEN IT MATTERS"
     }
   ],
   "profiles": [

@@ -1,10 +1,8 @@
-.invest-container img {
-    /* Image as background */
+.invest-container img{
+
     position: absolute;
     z-index: -1;
-    /* Resize image to fit container */
     object-fit: cover;
-    /* Set image dimensions */
     width: 100vw;
     height: 100vh;
 }
@@ -19,4 +17,20 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     /* Black background with 50% opacity */
+}
+
+.hero-content {
+    position: absolute;
+    color: white;
+    margin-top: 350px;
+    width: 60%;
+    margin-left: 50px;
+}
+.hero-content h2 {
+    font-size: 24px;
+}
+
+
+.hero-content h1 {
+    font-size: 72px;
 }

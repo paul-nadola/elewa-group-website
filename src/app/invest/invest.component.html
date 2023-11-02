@@ -1,6 +1,12 @@
-<div class="invest-container">
+<div class="invest-container" *ngFor="let item of content">
+    <!-- Mapping over the array to display hero content -->
+    <!-- <app-header></app-header> -->
     <!-- displaying the nav bar and background images-->
-    <app-header></app-header>
     <div class="overlay"></div>
     <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg" alt="background-image">
+    <div class="hero-content">
+        <h2>{{item.investHeroText}}</h2>
+        <h1>{{item.investHeroHeader}}</h1>
+        
+    </div>
 </div>
