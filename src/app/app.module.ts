@@ -9,6 +9,7 @@ import { SocialImpactComponent } from './social-impact/social-impact.component';
 import { AboutComponent } from './about/about.component';
 import { InvestComponent } from './invest/invest.component';
 import { ContentAPIsService } from './services/api/content/content-apis.service';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContentAPIsService } from './services/api/content/content-apis.service'
     HeaderComponent,
     SocialImpactComponent,
     AboutComponent,
-    InvestComponent
+    InvestComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
