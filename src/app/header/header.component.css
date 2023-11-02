@@ -20,8 +20,7 @@
    width: 50%;
    align-items: left;
    margin: 16px 0;
-   font-size: var(--elewa-group-website-font-size-elewa-text);
-   font-family: var(--elewa-group-website-dmsans-italic);
+   
    
 }
 /* styling the navigation menu items in the header container */
@@ -30,7 +29,6 @@
     /* displaying the menu list with no styles and setting them in a flex display */
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
     width: 50%;
     margin: 32px 0;
  }

@@ -1,0 +1,59 @@
+.footer-overlay {
+    background: rgba(0, 0, 0, 1);
+    border-radius: 50px;
+    width: 100%;
+    height: 600px;
+}
+.footer-container {
+    margin-top: 1820px;
+    color: white;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-items: center;
+
+}
+.links {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.links h4 {
+    color: white;
+    text-decoration: underline;
+    list-style-type: none;
+}
+.links div {
+    font-size: 1.7em;
+}
+.headquater-links, .contact-links, .navigation-links,
+.brand-links, .privacy-links {
+    display: block;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.nav-list, .contact-list, .brand-list, .privacy-list{
+    list-style-type: none;
+}
+.footer-logos {
+    display: flex;
+    padding-top: 80px;
+}
+.elewa-logo {
+    width: 50%;
+    align-items: left;
+    margin: 16px 0;
+}
+.socials{
+    padding-left: 200px;
+}
+.socials i {
+    padding: 10px;
+    font-size: 50px;
+}
