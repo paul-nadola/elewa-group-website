@@ -31,7 +31,7 @@
 
 /* start of business statitics styling */
 .business-section {
-        margin-top: 804px;
+        margin-top: 724px;
 }
 .business-overlay {
         background: rgba(0, 0, 0, 1);
@@ -130,6 +130,8 @@
         padding-left: 50px;
         width: 30%;
         padding-bottom: 30px;
+        height: 600px;
+        width: 450px;
 }
 .giving-back-content {
         width: 49%;
@@ -166,6 +168,7 @@
 .identity-image {
         padding-left: 125px;
         border-radius: 80px;
+        padding-bottom: 25px;
 }
 
 .identity-content h1 {
