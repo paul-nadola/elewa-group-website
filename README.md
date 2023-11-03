@@ -1,27 +1,29 @@
-# ElewaGroupWebsite
+# ELEWA GROUP WEBSITE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+This is a partial creation of the elewa group website with the pages created being:
+https://elewa.ke/social-impact
+https://elewa.ke/about
+https://elewa.ke/invest
 
-## Development server
+The home page navigation also leads to the social impact page
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## TECHNOLOGIES USED
 
-## Code scaffolding
+Angular
+CSS
+Typescript
+HTML5
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### USAGE
 
-## Build
+1. Clone this repository on your local machine
+2. Run `npm install` in the project directory to install project dependencies
+3. You might need to run `npm install -g json-server` if not yet installed in your computer
+4. From the project directory navigate to `src/app/services/database` you will find a db.json file containing the applications database
+5. From that terminal run `json-server --watch db.json` to run the local server
+6. Open another terminal and navigate into the project folder then run `ng serve` to
+run the app
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### AUTHORS
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Paul Nadola Oyinga
