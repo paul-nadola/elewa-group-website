@@ -84,9 +84,20 @@
 <!-- end of our identity section -->
 <br>
 <!-- testimonials section -->
-<div class="testimonials">
+<div class="testimonials" *ngFor="let item of content">
     <div class="testimonial-header">
-
+        <h1>{{item.impactProjectsText}}</h1>
+    </div>
+    <div class="impact-projects-logo">
+        <img src={{item.VVOB}} alt="VVOB">
+        <img src={{item.KSA}} alt="KSA">
+        <img src={{item.farmbetter}} alt="Farmbetter">
+        <img src={{item.WWF}} alt="WWF">
+        <img src={{item.enabel}} alt="Enabel">
+        <img src={{item.spotlights}} alt="Spotlights">
+    </div>
+    <div class="call-to-action">
+        <a href="#contact">{{item.callToActionText}}</a>
     </div>
 </div>
 <br>
