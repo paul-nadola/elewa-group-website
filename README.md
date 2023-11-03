@@ -6,6 +6,7 @@ https://elewa.ke/about
 https://elewa.ke/invest
 
 The home page navigation also leads to the social impact page
+The Team profile Images arent displayed probably through cloudinary privacy settings
 
 ## TECHNOLOGIES USED
 

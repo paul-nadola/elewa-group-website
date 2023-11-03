@@ -16,9 +16,14 @@
 </div>
 <br>
 <div class="profiles">
-
+    <div class="profile-cards" *ngFor="let profile of profiles">
+        <img [src]="profile.ImageUrl" [alt]="profile.name">
+        <p><a href="#"><strong>{{profile.name}}</strong></a></p>
+        <p><a href="#">{{profile.role}}</a></p>
+    </div>
 </div>
 <br>
+<h1>Profile images not being displayed possibly through cloudinary privacy settings</h1>
 <div>
     <app-footer></app-footer>
 </div>
