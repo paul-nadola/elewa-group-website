@@ -17,7 +17,7 @@
 <br>
 <div class="profiles">
     <div class="profile-cards" *ngFor="let profile of profiles">
-        <img [src]="profile.ImageUrl" [alt]="profile.name">
+        <img src={{profile.ImageUrl}} [alt]="profile.name">
         <p><a href="#"><strong>{{profile.name}}</strong></a></p>
         <p><a href="#">{{profile.role}}</a></p>
     </div>

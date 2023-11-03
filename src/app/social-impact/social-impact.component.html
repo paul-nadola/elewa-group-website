@@ -69,6 +69,27 @@
 </div>
 <!-- end of giving back section -->
 <br>
+<!-- Our identity section -->
+<div class="identity-overlay">
+<div class="identity-section" *ngFor="let item of content">
+   <div class="identity-content">
+     <h1>{{item.identityHeader}}</h1>
+     <p>{{item.identityText}}</p>
+   </div> 
+   <div class="identity-image">
+    <img [src]="item.identityUrl" alt="Identity Image">
+   </div>
+</div>
+</div>
+<!-- end of our identity section -->
+<br>
+<!-- testimonials section -->
+<div class="testimonials">
+    <div class="testimonial-header">
+
+    </div>
+</div>
+<br>
 <!-- footer -->
 <div>
     <app-footer></app-footer>

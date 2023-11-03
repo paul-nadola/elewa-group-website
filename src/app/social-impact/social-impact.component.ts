@@ -24,6 +24,21 @@ interface ContentItem {
   givingBackImageUrl: string;
   givingBackHeader:string;
   givingBackText:string;
+  identityText: string;
+  identityHeader:string;
+  identityUrl:string;
+  impactProjectsText:string;
+  callToActionText:string;
+  VVOB: string;
+  KSA: string;
+  farmbetter: string;
+  WWF: string;
+  enabel: string;
+  spotlights: string
+
+
+
+
 
 }
 @Component({

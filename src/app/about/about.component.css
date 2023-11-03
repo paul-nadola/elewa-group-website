@@ -41,15 +41,16 @@
 .hero-content h1 {
     font-size: 72px;
 }
+/* End of hero content styling */
+
+/* Profile styling */
 .profiles{
     margin-top: 824px;
     display: flex;
-    height: 400px;
 }
 
 .profile-cards img {
-    border-radius: 50%;
-    height: 230px;
+    height: 430px;
     width: 200px;
 
 }
@@ -58,3 +59,4 @@
     color: black;
 
 }
+/* End of profile styling */
