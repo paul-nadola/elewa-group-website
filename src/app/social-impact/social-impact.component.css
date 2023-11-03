@@ -27,3 +27,59 @@
 .hero-content h3 {
         font-size: 5rem;
 }
+/* end of hero content */
+
+/* start of business statitics styling */
+.business-section {
+        margin-top: 724px;
+}
+.business-overlay {
+        background: rgba(0, 0, 0, 1);
+        width: 100%;
+        height: 800px;
+}
+.project-numbers{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        color: white;
+        padding-top: 90px;
+        padding-left: 20%;
+        width: 80%;
+        font-size: 50px;
+}
+.project-items {
+        justify-content: center;
+}
+.project-items h4{
+        font-size: 30px;
+}
+.project-items p {
+        padding-left: 40px;
+}
+.business-content{
+        display: flex;
+        color: white;
+        
+}
+.business-image {
+        padding-left: 200px;
+        padding-top: 40px;
+}
+
+.business-image img{
+        height: 500px;
+        border-radius: 60px;
+}
+.business-text {
+        padding-right: 100px;
+        padding-top: 100px;
+        padding-left: 30px;
+}
+.business-text h2{
+        font-size: 60px;
+}
+.business-text p {
+        padding-top: 20px;
+        font-size: 31px;
+}

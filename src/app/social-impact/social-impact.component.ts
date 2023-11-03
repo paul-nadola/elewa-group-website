@@ -7,6 +7,18 @@ interface ContentItem {
   section: string;
   socialHeroHeader: string;
   socialHeroText: string;
+  peopleTrained: number;
+  trainedText: string;
+  carreersLaunched: number;
+  careerText:string;
+  projectsFinished: number;
+  projectText: string;
+  investors:number;
+  investText: string;
+  businessSectionUrl: string;
+  businessHeader: string;
+  businessContent: string;
+
 }
 @Component({
   selector: 'app-social-impact',

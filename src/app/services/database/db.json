@@ -5,7 +5,19 @@
       "id": 1,
       "section":"Social Impact",
       "socialHeroText": "Scaling impact. Beyond the norm",
-      "socialHeroHeader": "Human and Environmental Impact through Social Enterprise"
+      "socialHeroHeader": "Human and Environmental Impact through Social Enterprise",
+      "peopleTrained": 733,
+      "trainedText": "People Trained",
+      "carreersLaunched": 733,
+      "careerText": "Carreers Launched",
+      "projectsFinished": 200,
+      "projectText": "Projects Finished",
+      "investors": 56,
+      "investText": "Investors",
+      "businessSectionUrl":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1681306013/lady-impact_rnc9jy.jpg",
+      "businessHeader":"(Social) business for the win",
+      "businessContent":"With a young dynamic population that is eager to contribute to the global economy, East Africa has a lot to offer to the world. Now is the time to nurture sustainable, inclusive and scalable business. The rest will take care of itself.",
+      "objectiveHeader":"A cooperative mindset"
     },
     {
       "id": 2,
