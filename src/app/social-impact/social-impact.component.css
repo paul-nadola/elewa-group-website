@@ -31,7 +31,7 @@
 
 /* start of business statitics styling */
 .business-section {
-        margin-top: 724px;
+        margin-top: 804px;
 }
 .business-overlay {
         background: rgba(0, 0, 0, 1);
@@ -62,6 +62,7 @@
         color: white;
         
 }
+
 .business-image {
         padding-left: 200px;
         padding-top: 40px;
@@ -82,4 +83,65 @@
 .business-text p {
         padding-top: 20px;
         font-size: 31px;
+}
+/* end of business statistics section styling */
+
+
+/* start of objectives section styling */
+.objectives {
+        display: flex;
+        color: black;
+        height: 750px;
+}
+.objectives-content {
+        padding-left: 150px;
+        padding-top: 200px;
+        padding-right: 50px;
+        width: 50%;
+}
+.objectives-content p{
+        padding-top: 20px;
+        font-size: 30px;
+}
+.objectives-content h1 {
+        font-size: 50px;
+}
+
+.objectives-image{
+        border-radius: 20px;
+}
+.objectives-image img{
+        padding-top: 50px;
+        border-radius: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+        height: 650px;
+}
+/* end of objectives section styling */
+
+/* start of giving back section */
+.giving-back {
+        display: flex;
+        padding-left: 150px;
+        padding-right: 50px;
+        height: 650px;
+}
+.giving-back img {
+        padding-left: 50px;
+        width: 30%;
+        padding-bottom: 30px;
+}
+.giving-back-content {
+        width: 49%;
+        padding-top: 40px;
+        padding-left: 40px;
+}
+.giving-back-content h1{
+        font-size: 50px;
+        font-weight: 500;
+}
+.giving-back-content p {
+        font-size: 30px;
+        font-weight: 500;
+        padding-top: 35px;
 }

@@ -1,6 +1,6 @@
 <div class="social-impact">
     <!-- displaying the background image -->
-    <!-- <app-header></app-header> -->
+    <!-- header and hero section -->
     <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg"
         alt="background-image">
         <div class="hero-content" *ngFor="let item of content">
@@ -9,7 +9,9 @@
             <h3>{{item.socialHeroHeader}}</h3>
         </div>
 </div>
+    <!-- end of header and hero section -->
 <br>
+    <!-- business statistics section -->
 <div class="business-overlay">
 <div class="business-section" *ngFor="let item of content">
     <div class="project-numbers">
@@ -38,13 +40,36 @@
             <h2>{{item.businessHeader}}</h2>
             <p>{{item.businessContent}}</p>
         </div>
-
+    </div>
+  </div>
+</div>
+ <!-- end of business statistics section -->
+<br>
+<!-- objectives section -->
+<div class="objectives" *ngFor="let item of content">
+    <div class="objectives-content">
+        <h1>{{item.objectiveHeader}}</h1>
+        <p>{{item.objectiveText}}</p>
+    </div>
+    <div class="objectives-image">
+       <img src={{item.objectiveImageUrl}} alt="Objectives Image">
+    </div>
+</div>
+<!-- end of objectives section -->
+<br>
+<!-- giving back section -->
+<div class="giving-back" *ngFor="let item of content">
+    <img src={{item.givingBackImageUrl}} alt="Giving Back">
+    <div class="giving-back-content">
+        <h1>{{item.givingBackHeader}}</h1>
+        <p>{{item.givingBackText}}</p>
 
     </div>
 
 </div>
-</div>
+<!-- end of giving back section -->
 <br>
+<!-- footer -->
 <div>
     <app-footer></app-footer>
 </div>

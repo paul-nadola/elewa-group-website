@@ -18,6 +18,12 @@ interface ContentItem {
   businessSectionUrl: string;
   businessHeader: string;
   businessContent: string;
+  objectiveHeader: string;
+  objectiveText: string;
+  objectiveImageUrl: string;
+  givingBackImageUrl: string;
+  givingBackHeader:string;
+  givingBackText:string;
 
 }
 @Component({
